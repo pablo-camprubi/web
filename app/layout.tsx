@@ -11,9 +11,9 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: "Liquid Metal Buttons | Premium UI Components",
+  title: "Datrash | IA para Facebook Ads - Ejecuta Campañas Hablando con un Agente",
   description:
-    "A collection of premium button components featuring animated liquid metal borders powered by Paper Shaders.",
+    "No dashboards. No endless clicking. Just tell the agent what you want. Datrash connects directly to Facebook Ads and executes actions in plain English.",
   generator: "v0.app",
   icons: {
     icon: [
