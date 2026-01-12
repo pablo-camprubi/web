@@ -11,7 +11,7 @@ export function CtaSection() {
           Join thousands of advertisers who run Facebook Ads by just talking to an AI. Start your free trial today.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link href="#pricing">
+          <Link href="https://chat.datrash.com">
             <LiquidCtaButton>Start Free Trial</LiquidCtaButton>
           </Link>
           <Link
