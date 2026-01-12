@@ -13,7 +13,7 @@ export function ComparisonSection() {
 
         <div className="max-w-5xl mx-auto">
           <BeforeAfterSlider
-            beforeImage="/Facebook-Ads-Manager-Campaigns-tab-scaled.webp"
+            beforeImage="/Facebook-Ads.png"
             afterImage="/clean-simple-chat-interface-with-ai-agent-respondi.jpg"
             beforeLabel="Traditional Dashboard"
             afterLabel="With Datrash"
