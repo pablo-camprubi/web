@@ -31,7 +31,7 @@ export function HeroSection() {
 
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link href="#pricing">
+          <Link href="https://chat.datrash.com">
             <LiquidCtaButton>Start Free Trial</LiquidCtaButton>
           </Link>
           <Link
