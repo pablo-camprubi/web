@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/ui/navbar"
 import { HeroSection } from "@/components/sections/hero-section"
+import { AgentDemoSection } from "@/components/sections/agent-demo-section"
 import { ComparisonSection } from "@/components/sections/comparison-section"
 import { ImpactSection } from "@/components/sections/impact-section"
 import { FeaturesSection } from "@/components/sections/features-section"
@@ -13,6 +14,7 @@ export default function Home() {
     <main className="min-h-screen bg-zinc-950">
       <Navbar />
       <HeroSection />
+      <AgentDemoSection />
       <ComparisonSection />
       <ImpactSection />
       <FeaturesSection />

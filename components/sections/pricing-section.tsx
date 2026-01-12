@@ -111,7 +111,7 @@ export function PricingSection() {
 
               {/* CTA */}
               <Link
-                href={plan.cta === "Start Free Trial" ? "https://chat.datrash.com" : "#"}
+                href="#"
                 className={`block w-full py-3 px-6 text-center rounded-full font-medium text-sm transition-colors mt-auto ${
                   plan.highlighted
                     ? "bg-zinc-900 text-zinc-100 hover:bg-zinc-800"
