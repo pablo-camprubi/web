@@ -14,7 +14,7 @@ export function ComparisonSection() {
         <div className="max-w-5xl mx-auto">
           <BeforeAfterSlider
             beforeImage="/Facebook-Ads.png"
-            afterImage="/clean-simple-chat-interface-with-ai-agent-respondi.jpg"
+            afterImage="/chat.png"
             beforeLabel="Traditional Dashboard"
             afterLabel="With Datrash"
             className="aspect-video shadow-2xl"
