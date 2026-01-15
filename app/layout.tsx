@@ -32,6 +32,27 @@ export const metadata: Metadata = {
     ],
     apple: "/apple-icon.png",
   },
+  openGraph: {
+    title: "Datrash | IA para Facebook Ads - Ejecuta Campañas Hablando con un Agente",
+    description:
+      "No dashboards. No endless clicking. Just tell the agent what you want. Datrash connects directly to Facebook Ads and executes actions in plain English.",
+    type: "website",
+    images: [
+      {
+        url: "/icon.svg",
+        width: 1200,
+        height: 630,
+        alt: "Datrash - IA para Facebook Ads",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Datrash | IA para Facebook Ads",
+    description:
+      "No dashboards. No endless clicking. Just tell the agent what you want. Datrash connects directly to Facebook Ads and executes actions in plain English.",
+    images: ["/icon.svg"],
+  },
 }
 
 export default function RootLayout({
