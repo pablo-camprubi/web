@@ -6,7 +6,7 @@ import { Sparkles, ArrowRight } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-24 pb-20 relative">
+    <section className="min-h-[85vh] flex flex-col items-center justify-center px-6 pt-24 pb-8 relative">
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/50 via-transparent to-transparent" />
 
@@ -43,7 +43,7 @@ export function HeroSection() {
           </Link>
         </div>
 
-        <div className="mt-16 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <div className="flex items-center gap-4">
             <div className="flex -space-x-3">
               <img
