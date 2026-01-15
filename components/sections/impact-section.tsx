@@ -7,10 +7,10 @@ const metrics = [
 
 export function ImpactSection() {
   return (
-    <section className="px-6 py-24 bg-zinc-900/20">
+    <section className="px-6 py-12 bg-zinc-900/20">
       <div className="max-w-5xl mx-auto">
         {/* Impact Section Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <p className="text-sm font-medium text-zinc-500 uppercase tracking-wider mb-4">Impact</p>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-zinc-100 mb-4">
             Trusted by advertisers worldwide

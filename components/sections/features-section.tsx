@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export function FeaturesSection() {
   return (
-    <section id="features" className="px-6 py-24">
+    <section id="features" className="px-6 py-12">
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
         <motion.div
@@ -14,7 +14,7 @@ export function FeaturesSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-12"
+          className="text-center mb-8"
         >
           <p className="text-sm font-medium text-zinc-500 uppercase tracking-wider mb-4">Features</p>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-zinc-100 mb-4">

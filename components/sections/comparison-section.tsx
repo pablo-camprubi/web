@@ -2,9 +2,9 @@ import { BeforeAfterSlider } from "@/components/ui/before-after-slider"
 
 export function ComparisonSection() {
   return (
-    <section className="py-24 px-4 bg-zinc-950">
+    <section className="py-12 px-4 bg-zinc-950">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">The Old Way vs. The Datrash Way</h2>
           <p className="text-xl text-zinc-400 max-w-2xl mx-auto">
             Stop wasting hours in dashboards. See the difference for yourself.
@@ -21,7 +21,7 @@ export function ComparisonSection() {
           />
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mt-16 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto">
           <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-6">
             <h3 className="text-xl font-semibold text-red-400 mb-3">Traditional Way</h3>
             <ul className="space-y-2 text-zinc-400">

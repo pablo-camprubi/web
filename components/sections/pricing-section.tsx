@@ -55,10 +55,10 @@ const plans = [
 
 export function PricingSection() {
   return (
-    <section id="pricing" className="px-6 py-24">
+    <section id="pricing" className="px-6 py-12">
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <p className="text-sm font-medium text-zinc-500 uppercase tracking-wider mb-4">Pricing</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-zinc-100 mb-4">
             Simple, transparent pricing

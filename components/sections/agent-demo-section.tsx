@@ -23,7 +23,7 @@ export function AgentDemoSection() {
   const [inputValue, setInputValue] = useState("")
 
   return (
-    <section className="relative py-24 px-6 overflow-hidden">
+    <section className="relative py-12 px-6 overflow-hidden">
       {/* Background gradient overlay - matching site pattern */}
       <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950" />
       <div className="absolute inset-0 bg-gradient-to-br from-zinc-800/20 via-transparent to-zinc-800/10" />
@@ -35,7 +35,7 @@ export function AgentDemoSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-12"
+          className="text-center mb-8"
         >
           <p className="text-sm font-medium text-zinc-500 uppercase tracking-wider mb-4">Try It Now</p>
           <h2 className="font-display text-3xl md:text-5xl font-bold tracking-tight mb-6">
@@ -132,7 +132,7 @@ export function AgentDemoSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-16"
+          className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-16"
         >
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-1">
@@ -176,7 +176,7 @@ export function AgentDemoSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="mt-16 text-center"
+          className="mt-8 text-center"
         >
           <p className="text-sm text-zinc-600 mb-6">Used by performance marketers at</p>
           <div className="flex flex-wrap items-center justify-center gap-8 opacity-40">

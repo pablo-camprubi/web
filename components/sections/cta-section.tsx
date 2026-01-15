@@ -4,7 +4,7 @@ import { LiquidCtaButton } from "@/components/buttons/liquid-cta-button"
 
 export function CtaSection() {
   return (
-    <section className="px-6 py-24">
+    <section className="px-6 py-12">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="font-display text-4xl md:text-5xl font-bold text-zinc-100 mb-6">Ready to stop clicking?</h2>
         <p className="text-lg text-zinc-500 mb-10 text-balance">
